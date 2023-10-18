@@ -1,3 +1,3 @@
 # Sync-C
 
-Repositório destinados aos projetos feitos em C nas aulas de lógica de programação
+Repositório destinado aos projetos feitos em C nas aulas de lógica de programação
