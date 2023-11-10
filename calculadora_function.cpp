@@ -1,8 +1,6 @@
 #include <stdio.h>
 #include <locale.h>
 
-
-
 float soma(float val1, float val2){
 	return (val1 + val2);
 }
@@ -114,8 +112,3 @@ int main() {
     } while (choice != 7);
 
 }
-
-
-
-
-
