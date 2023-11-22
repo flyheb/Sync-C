@@ -17,6 +17,14 @@ float divisao(float val1, float val2){
 	return (val1 / val2);
 }
 
+int fatorial(int val1){
+	int fat = 1;
+	for(int i = 1; i <= val1; i++){
+		fat *= i;
+	}
+	return fat;
+}
+
 float potencia(float val1, int ex1){
 	int contp = 0;
 	float result = 1;
@@ -40,6 +48,7 @@ int main() {
             printf("3 - Multiplicação\n");
             printf("4 - Divisão\n");
             printf("5 - Potenciação\n");
+            printf("6 - Fatorial\n");
             printf("7 - Sair\n");
             printf("Opção: ");
             scanf("%d", &choice);
@@ -96,6 +105,16 @@ int main() {
                 printf("O resultado da potenciação é: %.2f\n", potencia(val1, ex1));
                 break;
             }
+            
+            case 6:{
+            	int val1;
+            	int i = 1;
+            	printf("Digite o valor do fator: ");
+            	scanf("%d", &val1);
+                printf("O resultado do fatorial é: %d \n", fatorial(val1));
+				break;
+			} 
+            
             case 7: {
                 printf("Programa encerrado!\n");
                 break;
